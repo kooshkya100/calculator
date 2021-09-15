@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/cssreset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/calculator.png">
+    <script src='scripts/script.js' defer></script>
+    
+    <script src="https://kit.fontawesome.com/c353415b05.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <div id="calc-frame">
+            <a href="https://github.com/kooshkya100" target='_blank'>A.M.K.</a>
+            <div id="calc-screen">
+                <!-- × ÷ -->
+                <p id='top-line'></p>
+                <p id='bottom-line'>0</p>
+            </div>
+
+            <div id="keyboard">
+                <button class='operation-button' data-operation='clear' id ='clear-button'>
+                    C
+                </button>
+                <button class='operation-button' data-operation='back' id='back-button'>
+                    <i class="fas fa-backspace"></i>
+                </button>
+                <button class='operation-button math-operator' data-operation='/'>
+                    <i class="fas fa-divide"></i>
+                </button>
+                <button class='number-button' data-value='7'>
+                    7
+                </button>
+                <button class='number-button' data-value='8'>
+                    8
+                </button>
+                <button class='number-button' data-value='9'>
+                    9
+                </button>
+                <button class='operation-button math-operator' data-operation='*'>
+                    <i class="fas fa-times"></i>
+                </button>
+                <button class='number-button' data-value='4'>
+                    4
+                </button>
+                <button class='number-button' data-value='5'>
+                    5
+                </button>
+                <button class='number-button' data-value='6'>
+                    6
+                </button>
+                <button class='operation-button math-operator' data-operation='+'>
+                    <i class="fas fa-plus"></i>
+                </button>
+                <button class='number-button' data-value='1'>
+                    1
+                </button>
+                <button class='number-button' data-value='2'>
+                    2
+                </button>
+                <button class='number-button' data-value='3'>
+                    3
+                </button>
+                <button class='operation-button math-operator' data-operation='-'>
+                    <i class="fas fa-minus"></i>
+                </button>
+                <button class='number-button' data-value='.'>
+                    .
+                </button>
+                <button class='number-button' data-value='0'>
+                    0
+                </button>
+                <button class='operation-button' data-operation='result' id='result-button'>
+                    <i class="fas fa-equals"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Developed by Amir Kooshky <a href="https://github.com/kooshkya100" target='_blank'><i class="fab fa-github"></i></a><a href="https://twitter.com/AKooshky" target='_blank'><i class="fab fa-twitter"></i></i></a><a href="https://t.me/kooshkya" target='_blank'><i class="fab fa-telegram"></i></a></p>
+    </footer>
+</body>
+</html>
