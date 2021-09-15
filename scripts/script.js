@@ -111,12 +111,12 @@ function getResult() {
             ScreenBottomLine.textContent = result;
             ScreenTopLine.textContent = `${topValue} ${getOperationsPrettySymbol(pendingOperationType)} ${main} = ${result}`;
             topValue = null;
+            pendingOperationType = null;
         }
         else if (result.toString().includes("error")) {
             alert("An error occured, you can't divide by 0!");
             return;
         }
-        
     }
 }
 
